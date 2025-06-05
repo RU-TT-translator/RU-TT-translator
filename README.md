@@ -1,4 +1,4 @@
-## Translator for Russian-Tatar language pair
+## Neural Machine Translation for Russian-Tatar Language Pair
 
 
 This project focuses on fine-tuning NLLB-200-distilled-600M model for Russian-Tatar translation.

@@ -1,7 +1,7 @@
 ## Translator for Russian-Tatar language pair
 
 
-This project focuses on fine-tuning NLLB200 600M model for Russian ↔ Tatar translation.
+This project focuses on fine-tuning NLLB-200-distilled-600M model for Russian -Tatar translation.
 
 **Project Structure**
 
@@ -11,7 +11,7 @@ This project focuses on fine-tuning NLLB200 600M model for Russian ↔ Tatar tra
 
 2. **Data (data)**
 	- Files: [tat_ru_300k_cleaned_parallel_corpus.xlsx](data/tat_ru_300k_cleaned_parallel_corpus.xlsx)
-	- Purpose: Preprocessed data via [Data_cleaning.ipynb] for training
+	- Purpose: Preprocessed data via [Data_cleaning.ipynb](data/Data_cleaning.ipynb) for training
 
 3. **Model Training (model)**
    - Files: [Fine_tuning_NLLB200_600.ipynb](Fine_tuning_NLLB200_600.ipynb)

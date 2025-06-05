@@ -5,20 +5,20 @@ This project focuses on fine-tuning NLLB200 600M model for Russian ↔ Tatar tra
 
 **Project Structure**
 
-1. **Data preprocessing /Data **[data]
-   - Files: [data/Data_cleaning.ipynb]
+1. **Data preprocessing**
+   - Files: [Data_cleaning.ipynb](data/Data_cleaning.ipynb)
    - Purpose: To preprocess data for better training quality
 
-2. **Data**
-	- Files: [data/tat_ru_300k_cleaned_parallel_corpus.xlsx]
+2. **Data (data)**
+	- Files: [tat_ru_300k_cleaned_parallel_corpus.xlsx](data/tat_ru_300k_cleaned_parallel_corpus.xlsx)
 	- Purpose: Preprocessed data via [Data_cleaning.ipynb] for training
 
-3. **Model Training **
-   - Files: [Fine_tuning_NLLB200_600.ipynb]
+3. **Model Training (model)**
+   - Files: [Fine_tuning_NLLB200_600.ipynb](Fine_tuning_NLLB200_600.ipynb)
    - Purpose: To fine-tune NLLB200 600M for russian↔tatar translation
    
 4. **Metrics Evaluation (metrics)**
-   - Files: [Translation_testing.ipynb]
+   - Files: [Translation_testing.ipynb](Translation_testing.ipynb)
    - Purpose: To evaluate the performance of the model using sacreBLEU and chrF++ metrics
 
 ---
@@ -29,7 +29,7 @@ We compiled a Russian-Tatar parallel corpus from multiple sources, initially com
 ---
 **Model**
 
-**NLLB-200-distilled-600M**: Selected model was trained on over than 200 languages, a large number of which are Turkic languages, including Tatar
+- **NLLB-200-distilled-600M**: Selected model was trained on over than 200 languages, a large number of which are Turkic languages, including Tatar
 
 ---
 **Results**

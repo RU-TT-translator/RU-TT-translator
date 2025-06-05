@@ -1,7 +1,7 @@
 ## Translator for Russian-Tatar language pair
 
 
-This project focuses on fine-tuning NLLB-200-distilled-600M model for Russian -Tatar translation.
+This project focuses on fine-tuning NLLB-200-distilled-600M model for Russian-Tatar translation.
 
 **Project Structure**
 
